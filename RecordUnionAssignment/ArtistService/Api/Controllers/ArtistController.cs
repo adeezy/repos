@@ -1,7 +1,7 @@
-﻿using ArtistService.Api.Models;
-using ArtistService.Domain;
-using ArtistService.Service.Command;
-using ArtistService.Service.Query;
+﻿using Artist.Api.Models;
+using Artist.Domain;
+using Artist.Service.Command;
+using Artist.Service.Query;
 using AutoMapper;
 using MediatR;
 using Microsoft.AspNetCore.Http;
@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
-namespace ArtistService.Controllers
+namespace Artist.Controllers
 {
     [Produces("application/json")]
     [Route("api/[controller]")]
@@ -36,13 +36,13 @@ namespace ArtistService.Controllers
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status422UnprocessableEntity)]
         [HttpPost]
-        public async Task<ActionResult<Artist>> Artist(ArtistModel artistModel)
+        public async Task<ActionResult<Domain.Artist>> Artist(ArtistModel artistModel)
         {
             try
             {
                 return await _mediator.Send(new CreateArtistCommand
                 {
-                    Artist = _mapper.Map<Artist>(artistModel)
+                    Artist = _mapper.Map<Domain.Artist>(artistModel)
                 });
             }
             catch (Exception ex)
@@ -54,11 +54,11 @@ namespace ArtistService.Controllers
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [HttpGet]
-        public async Task<ActionResult<Artist>> Artists(Artist request)
+        public async Task<ActionResult<Domain.Artist>> Artists(Domain.Artist request)
         {
             try
             {
-                Artist artist = new Artist();
+                Domain.Artist artist = new Domain.Artist();
                 artist = await _mediator.Send(new GetArtistQuery(request));
 
                     return new JsonResult(artist);

@@ -1,18 +1,18 @@
-﻿using ArtistService.Api.Models;
-using ArtistService.Domain;
+﻿using Artist.Api.Models;
+using Artist.Domain;
 using AutoMapper;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ArtistService.Api
+namespace Artist.Api
 {
     public class MappingProfile : Profile
     {
         public MappingProfile()
         {
-            CreateMap<ArtistModel, Artist>()
+            CreateMap<ArtistModel, Domain.Artist>()
                 .ForMember(x => x.State, opt => opt.MapFrom(src => 1));
         }
     }

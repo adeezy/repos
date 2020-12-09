@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ArtistService.Api.Models
+namespace Artist.Api.Models
 {
     public class ArtistModel
     {

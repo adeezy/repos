@@ -1,8 +1,8 @@
-using ArtistService.Api;
-using ArtistService.Data.Database;
-using ArtistService.Data.Repository;
-using ArtistService.Domain;
-using ArtistService.Service.Command;
+using Artist.Api;
+using Artist.Data.Database;
+using Artist.Data.Repository;
+using Artist.Domain;
+using Artist.Service.Command;
 using AutoMapper;
 using MediatR;
 using Microsoft.AspNetCore.Builder;
@@ -17,10 +17,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Reflection;
-using ArtistService.Service.Services;
-using ArtistService.Service.Query;
+using Artist.Service.Services;
+using Artist.Service.Query;
 
-namespace ArtistService
+namespace Artist
 {
     public class Startup
     {
@@ -43,8 +43,8 @@ namespace ArtistService
             services.AddSingleton(mapper);
             services.AddMediatR(typeof(Startup));
             services.AddScoped<IArtistRepository, ArtistRepository>();
-            services.AddTransient<IRequestHandler<CreateArtistCommand, Artist>, CreateArtistCommandHandler>();
-            services.AddTransient<IRequestHandler<GetArtistQuery, Artist>, GetArtistQueryHandler>();
+            services.AddTransient<IRequestHandler<CreateArtistCommand, Domain.Artist>, CreateArtistCommandHandler>();
+            services.AddTransient<IRequestHandler<GetArtistQuery, Domain.Artist>, GetArtistQueryHandler>();
             services.AddDbContext<ArtistContext>();
             services.AddTransient<ICreateArtistService, CreateArtistService>();
             services.AddSingleton(Configuration.GetSection("Client").Get<Client>());

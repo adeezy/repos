@@ -1,0 +1,9 @@
+C:\Users\aden_\source\repos\RecordUnionAssignment\ArtistService.Domain\bin\Debug\netcoreapp3.1\ArtistService.Domain.deps.json
+C:\Users\aden_\source\repos\RecordUnionAssignment\ArtistService.Domain\bin\Debug\netcoreapp3.1\ArtistService.Domain.dll
+C:\Users\aden_\source\repos\RecordUnionAssignment\ArtistService.Domain\bin\Debug\netcoreapp3.1\ArtistService.Domain.pdb
+C:\Users\aden_\source\repos\RecordUnionAssignment\ArtistService.Domain\obj\Debug\netcoreapp3.1\ArtistService.Domain.csprojAssemblyReference.cache
+C:\Users\aden_\source\repos\RecordUnionAssignment\ArtistService.Domain\obj\Debug\netcoreapp3.1\ArtistService.Domain.AssemblyInfoInputs.cache
+C:\Users\aden_\source\repos\RecordUnionAssignment\ArtistService.Domain\obj\Debug\netcoreapp3.1\ArtistService.Domain.AssemblyInfo.cs
+C:\Users\aden_\source\repos\RecordUnionAssignment\ArtistService.Domain\obj\Debug\netcoreapp3.1\ArtistService.Domain.csproj.CoreCompileInputs.cache
+C:\Users\aden_\source\repos\RecordUnionAssignment\ArtistService.Domain\obj\Debug\netcoreapp3.1\ArtistService.Domain.dll
+C:\Users\aden_\source\repos\RecordUnionAssignment\ArtistService.Domain\obj\Debug\netcoreapp3.1\ArtistService.Domain.pdb
