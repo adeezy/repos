@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "Kc9KFxubOskppK0T4WIlYuhVCoDfMplSPlrnOQ4oJgsIaEnpQxWcg7GQAqHjJE1c9O0OrE+371IFJFNQFE42GA==",
-  "success": true,
+  "dgSpecHash": "Pcr6WDPkERPS2YRJ9vH0U0AKjwF7xK68RbHo6wneoi2jiEwEL242yFogRh+H3wjfVespYqeJ3RAuqGcRqm+3AA==",
+  "success": false,
   "projectFilePath": "C:\\Users\\aden_\\source\\repos\\RecordUnionAssignment\\ArtistService\\Artist.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aden_\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
@@ -101,6 +101,15 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
   "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'C:\\Users\\aden_\\source\\repos\\RecordUnionAssignment\\Artist.Domain\\Artist.Domain.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "C:\\Users\\aden_\\source\\repos\\RecordUnionAssignment\\Artist.Domain\\Artist.Domain.csproj",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
     {
       "code": "NU1701",
       "level": "Warning",

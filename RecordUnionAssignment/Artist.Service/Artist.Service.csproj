@@ -14,8 +14,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Artist.Data\Artist.Data.csproj" />
+    <ProjectReference Include="..\Artist.Domain\Artist.Domain.csproj" />
     <ProjectReference Include="..\Artist.Extensions\Artist.Extensions.csproj" />
-    <ProjectReference Include="..\ArtistService.Domain\Artist.Domain.csproj" />
   </ItemGroup>
 
 </Project>

@@ -31,8 +31,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\aden_\\source\\repos\\RecordUnionAssignment\\ArtistService.Domain\\Artist.Domain.csproj": {
-                "projectPath": "C:\\Users\\aden_\\source\\repos\\RecordUnionAssignment\\ArtistService.Domain\\Artist.Domain.csproj"
+              "C:\\Users\\aden_\\source\\repos\\RecordUnionAssignment\\Artist.Domain\\Artist.Domain.csproj": {
+                "projectPath": "C:\\Users\\aden_\\source\\repos\\RecordUnionAssignment\\Artist.Domain\\Artist.Domain.csproj"
               }
             }
           }
@@ -75,14 +75,14 @@
         }
       }
     },
-    "C:\\Users\\aden_\\source\\repos\\RecordUnionAssignment\\ArtistService.Domain\\Artist.Domain.csproj": {
+    "C:\\Users\\aden_\\source\\repos\\RecordUnionAssignment\\Artist.Domain\\Artist.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aden_\\source\\repos\\RecordUnionAssignment\\ArtistService.Domain\\Artist.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\aden_\\source\\repos\\RecordUnionAssignment\\Artist.Domain\\Artist.Domain.csproj",
         "projectName": "Artist.Domain",
-        "projectPath": "C:\\Users\\aden_\\source\\repos\\RecordUnionAssignment\\ArtistService.Domain\\Artist.Domain.csproj",
+        "projectPath": "C:\\Users\\aden_\\source\\repos\\RecordUnionAssignment\\Artist.Domain\\Artist.Domain.csproj",
         "packagesPath": "C:\\Users\\aden_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aden_\\source\\repos\\RecordUnionAssignment\\ArtistService.Domain\\obj\\",
+        "outputPath": "C:\\Users\\aden_\\source\\repos\\RecordUnionAssignment\\Artist.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

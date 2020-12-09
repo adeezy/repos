@@ -5,8 +5,8 @@ C:\Users\aden_\source\repos\RecordUnionAssignment\Artist.Service\bin\Debug\netco
 C:\Users\aden_\source\repos\RecordUnionAssignment\Artist.Service\bin\Debug\netcoreapp3.1\Artist.Domain.dll
 C:\Users\aden_\source\repos\RecordUnionAssignment\Artist.Service\bin\Debug\netcoreapp3.1\Artist.Extensions.dll
 C:\Users\aden_\source\repos\RecordUnionAssignment\Artist.Service\bin\Debug\netcoreapp3.1\Artist.Data.pdb
-C:\Users\aden_\source\repos\RecordUnionAssignment\Artist.Service\bin\Debug\netcoreapp3.1\Artist.Extensions.pdb
 C:\Users\aden_\source\repos\RecordUnionAssignment\Artist.Service\bin\Debug\netcoreapp3.1\Artist.Domain.pdb
+C:\Users\aden_\source\repos\RecordUnionAssignment\Artist.Service\bin\Debug\netcoreapp3.1\Artist.Extensions.pdb
 C:\Users\aden_\source\repos\RecordUnionAssignment\Artist.Service\obj\Debug\netcoreapp3.1\Artist.Service.csprojAssemblyReference.cache
 C:\Users\aden_\source\repos\RecordUnionAssignment\Artist.Service\obj\Debug\netcoreapp3.1\Artist.Service.AssemblyInfoInputs.cache
 C:\Users\aden_\source\repos\RecordUnionAssignment\Artist.Service\obj\Debug\netcoreapp3.1\Artist.Service.AssemblyInfo.cs

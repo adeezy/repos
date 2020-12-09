@@ -5336,8 +5336,8 @@
     },
     "Artist.Domain/1.0.0": {
       "type": "project",
-      "path": "../ArtistService.Domain/Artist.Domain.csproj",
-      "msbuildProject": "../ArtistService.Domain/Artist.Domain.csproj"
+      "path": "../Artist.Domain/Artist.Domain.csproj",
+      "msbuildProject": "../Artist.Domain/Artist.Domain.csproj"
     },
     "Artist.Extensions/1.0.0": {
       "type": "project",
@@ -5387,11 +5387,11 @@
             "C:\\Users\\aden_\\source\\repos\\RecordUnionAssignment\\Artist.Data\\Artist.Data.csproj": {
               "projectPath": "C:\\Users\\aden_\\source\\repos\\RecordUnionAssignment\\Artist.Data\\Artist.Data.csproj"
             },
+            "C:\\Users\\aden_\\source\\repos\\RecordUnionAssignment\\Artist.Domain\\Artist.Domain.csproj": {
+              "projectPath": "C:\\Users\\aden_\\source\\repos\\RecordUnionAssignment\\Artist.Domain\\Artist.Domain.csproj"
+            },
             "C:\\Users\\aden_\\source\\repos\\RecordUnionAssignment\\Artist.Extensions\\Artist.Extensions.csproj": {
               "projectPath": "C:\\Users\\aden_\\source\\repos\\RecordUnionAssignment\\Artist.Extensions\\Artist.Extensions.csproj"
-            },
-            "C:\\Users\\aden_\\source\\repos\\RecordUnionAssignment\\ArtistService.Domain\\Artist.Domain.csproj": {
-              "projectPath": "C:\\Users\\aden_\\source\\repos\\RecordUnionAssignment\\ArtistService.Domain\\Artist.Domain.csproj"
             }
           }
         }

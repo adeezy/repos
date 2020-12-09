@@ -57,8 +57,8 @@
     },
     "Artist.Domain/1.0.0": {
       "type": "project",
-      "path": "../ArtistService.Domain/Artist.Domain.csproj",
-      "msbuildProject": "../ArtistService.Domain/Artist.Domain.csproj"
+      "path": "../Artist.Domain/Artist.Domain.csproj",
+      "msbuildProject": "../Artist.Domain/Artist.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -98,8 +98,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\aden_\\source\\repos\\RecordUnionAssignment\\ArtistService.Domain\\Artist.Domain.csproj": {
-              "projectPath": "C:\\Users\\aden_\\source\\repos\\RecordUnionAssignment\\ArtistService.Domain\\Artist.Domain.csproj"
+            "C:\\Users\\aden_\\source\\repos\\RecordUnionAssignment\\Artist.Domain\\Artist.Domain.csproj": {
+              "projectPath": "C:\\Users\\aden_\\source\\repos\\RecordUnionAssignment\\Artist.Domain\\Artist.Domain.csproj"
             }
           }
         }

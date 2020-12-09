@@ -1428,7 +1428,6 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "Artist.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.1"
         },
@@ -1439,21 +1438,11 @@
           "bin/placeholder/Artist.Data.dll": {}
         }
       },
-      "Artist.Domain/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "compile": {
-          "bin/placeholder/Artist.Domain.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Artist.Domain.dll": {}
-        }
-      },
       "Artist.Extensions/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "Artist.Domain": "1.0.0",
+          "C:\\Users\\aden_\\source\\repos\\RecordUnionAssignment\\Artist.Domain\\Artist.Domain.csproj": "1.0.0",
           "Newtonsoft.Json": "12.0.3"
         },
         "compile": {
@@ -1467,9 +1456,6 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "Artist.Data": "1.0.0",
-          "Artist.Domain": "1.0.0",
-          "Artist.Extensions": "1.0.0",
           "MediatR": "9.0.0"
         },
         "compile": {
@@ -5610,11 +5596,6 @@
       "path": "../Artist.Data/Artist.Data.csproj",
       "msbuildProject": "../Artist.Data/Artist.Data.csproj"
     },
-    "Artist.Domain/1.0.0": {
-      "type": "project",
-      "path": "../ArtistService.Domain/Artist.Domain.csproj",
-      "msbuildProject": "../ArtistService.Domain/Artist.Domain.csproj"
-    },
     "Artist.Extensions/1.0.0": {
       "type": "project",
       "path": "../Artist.Extensions/Artist.Extensions.csproj",
@@ -5629,11 +5610,11 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Artist.Data >= 1.0.0",
-      "Artist.Domain >= 1.0.0",
       "Artist.Extensions >= 1.0.0",
       "Artist.Service >= 1.0.0",
       "AutoMapper >= 10.1.1",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 8.1.0",
+      "C:\\Users\\aden_\\source\\repos\\RecordUnionAssignment\\Artist.Domain\\Artist.Domain.csproj",
       "MediatR >= 9.0.0",
       "MediatR.Extensions.Microsoft.DependencyInjection >= 9.0.0",
       "Microsoft.CodeDom.Providers.DotNetCompilerPlatform >= 3.6.0",
@@ -5677,14 +5658,14 @@
             "C:\\Users\\aden_\\source\\repos\\RecordUnionAssignment\\Artist.Data\\Artist.Data.csproj": {
               "projectPath": "C:\\Users\\aden_\\source\\repos\\RecordUnionAssignment\\Artist.Data\\Artist.Data.csproj"
             },
+            "C:\\Users\\aden_\\source\\repos\\RecordUnionAssignment\\Artist.Domain\\Artist.Domain.csproj": {
+              "projectPath": "C:\\Users\\aden_\\source\\repos\\RecordUnionAssignment\\Artist.Domain\\Artist.Domain.csproj"
+            },
             "C:\\Users\\aden_\\source\\repos\\RecordUnionAssignment\\Artist.Extensions\\Artist.Extensions.csproj": {
               "projectPath": "C:\\Users\\aden_\\source\\repos\\RecordUnionAssignment\\Artist.Extensions\\Artist.Extensions.csproj"
             },
             "C:\\Users\\aden_\\source\\repos\\RecordUnionAssignment\\Artist.Service\\Artist.Service.csproj": {
               "projectPath": "C:\\Users\\aden_\\source\\repos\\RecordUnionAssignment\\Artist.Service\\Artist.Service.csproj"
-            },
-            "C:\\Users\\aden_\\source\\repos\\RecordUnionAssignment\\ArtistService.Domain\\Artist.Domain.csproj": {
-              "projectPath": "C:\\Users\\aden_\\source\\repos\\RecordUnionAssignment\\ArtistService.Domain\\Artist.Domain.csproj"
             }
           }
         }
@@ -5759,6 +5740,15 @@
     }
   },
   "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'C:\\Users\\aden_\\source\\repos\\RecordUnionAssignment\\Artist.Domain\\Artist.Domain.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "C:\\Users\\aden_\\source\\repos\\RecordUnionAssignment\\Artist.Domain\\Artist.Domain.csproj",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
     {
       "code": "NU1701",
       "level": "Warning",
