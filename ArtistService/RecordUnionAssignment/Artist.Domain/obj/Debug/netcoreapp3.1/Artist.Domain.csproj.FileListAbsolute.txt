@@ -1,0 +1,17 @@
+C:\Users\aden_\source\repos\RecordUnionAssignment\ArtistService.Domain\bin\Debug\netcoreapp3.1\Artist.Domain.deps.json
+C:\Users\aden_\source\repos\RecordUnionAssignment\ArtistService.Domain\bin\Debug\netcoreapp3.1\Artist.Domain.dll
+C:\Users\aden_\source\repos\RecordUnionAssignment\ArtistService.Domain\bin\Debug\netcoreapp3.1\Artist.Domain.pdb
+C:\Users\aden_\source\repos\RecordUnionAssignment\ArtistService.Domain\obj\Debug\netcoreapp3.1\Artist.Domain.AssemblyInfoInputs.cache
+C:\Users\aden_\source\repos\RecordUnionAssignment\ArtistService.Domain\obj\Debug\netcoreapp3.1\Artist.Domain.AssemblyInfo.cs
+C:\Users\aden_\source\repos\RecordUnionAssignment\ArtistService.Domain\obj\Debug\netcoreapp3.1\Artist.Domain.csproj.CoreCompileInputs.cache
+C:\Users\aden_\source\repos\RecordUnionAssignment\ArtistService.Domain\obj\Debug\netcoreapp3.1\Artist.Domain.dll
+C:\Users\aden_\source\repos\RecordUnionAssignment\ArtistService.Domain\obj\Debug\netcoreapp3.1\Artist.Domain.pdb
+C:\Users\aden_\source\repos\ArtistService\RecordUnionAssignment\Artist.Domain\bin\Debug\netcoreapp3.1\Artist.Domain.deps.json
+C:\Users\aden_\source\repos\ArtistService\RecordUnionAssignment\Artist.Domain\bin\Debug\netcoreapp3.1\Artist.Domain.dll
+C:\Users\aden_\source\repos\ArtistService\RecordUnionAssignment\Artist.Domain\bin\Debug\netcoreapp3.1\Artist.Domain.pdb
+C:\Users\aden_\source\repos\ArtistService\RecordUnionAssignment\Artist.Domain\obj\Debug\netcoreapp3.1\Artist.Domain.csprojAssemblyReference.cache
+C:\Users\aden_\source\repos\ArtistService\RecordUnionAssignment\Artist.Domain\obj\Debug\netcoreapp3.1\Artist.Domain.AssemblyInfoInputs.cache
+C:\Users\aden_\source\repos\ArtistService\RecordUnionAssignment\Artist.Domain\obj\Debug\netcoreapp3.1\Artist.Domain.AssemblyInfo.cs
+C:\Users\aden_\source\repos\ArtistService\RecordUnionAssignment\Artist.Domain\obj\Debug\netcoreapp3.1\Artist.Domain.csproj.CoreCompileInputs.cache
+C:\Users\aden_\source\repos\ArtistService\RecordUnionAssignment\Artist.Domain\obj\Debug\netcoreapp3.1\Artist.Domain.dll
+C:\Users\aden_\source\repos\ArtistService\RecordUnionAssignment\Artist.Domain\obj\Debug\netcoreapp3.1\Artist.Domain.pdb

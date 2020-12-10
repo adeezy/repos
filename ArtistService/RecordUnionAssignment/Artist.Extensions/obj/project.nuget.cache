@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "LY+nGjuLEYqVUZroZrCJxouMoEgOTNQzCNoH80QTotAFOzk1OtdOjLFh7OpkxJGKN6zS6EiZKfZbQddUbiNBUA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\aden_\\source\\repos\\ArtistService\\RecordUnionAssignment\\Artist.Extensions\\Artist.Extensions.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\aden_\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
